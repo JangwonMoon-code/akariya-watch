@@ -167,10 +167,18 @@ def main() -> None:
         print(f"Initial state saved. Products found: {len(products)}")
         return
 
+    now = datetime.now(ZoneInfo("Asia/Tokyo")).strftime("%Y-%m-%d %H:%M:%S")
+
     old_hash = old_state.get("hash")
     old_products = old_state.get("products", [])
     
     if old_hash == page_hash:
+        send_discord(
+            f"✅ 확인 완료\n"
+            f"🕒 {now}\n"
+            f"변화 없음\n"
+            f"상품 수: {len(products)}개"
+        )
         print(f"No change. Products found: {len(products)}")
         return
     
@@ -182,11 +190,17 @@ def main() -> None:
         send_discord(message)
         print("Discord message sent.")
     else:
+        send_discord(
+            f"✅ 확인 완료\n"
+            f"🕒 {now}\n"
+            f"변화는 있었지만 1만엔 이상 신규 상품은 없습니다.\n"
+            f"상품 수: {len(products)}개"
+        )
         print("No products over 10000 yen.")
     
     save_state(products, page_hash)
     
-    print("Change detected. Notification sent.")
+    print("Check completed.")
     print(f"New products: {len(new_products)}")
 
 
