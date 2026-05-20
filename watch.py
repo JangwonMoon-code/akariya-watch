@@ -48,7 +48,6 @@ def extract_products(html: str) -> list[dict]:
         if "SOLD OUT" in text.upper():
             continue
 
-        continue
         if "pid=" not in href:
             continue
 
