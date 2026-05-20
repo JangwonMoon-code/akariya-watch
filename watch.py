@@ -5,6 +5,8 @@ import hashlib
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 URL = "https://akariya-jishichi.co.jp/?mode=cate&cbid=2606203&csid=0"
 STATE_FILE = "state.json"
