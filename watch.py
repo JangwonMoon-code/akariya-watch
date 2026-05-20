@@ -169,24 +169,23 @@ def main() -> None:
 
     old_hash = old_state.get("hash")
     old_products = old_state.get("products", [])
-
+    
     if old_hash == page_hash:
-        send_discord("✅ 아직 입고 안되었어요! 조금만 기다려줘요.")
         print(f"No change. Products found: {len(products)}")
         return
-
+    
     new_products = find_new_products(old_products, products)
-
-message = build_message(new_products)
-
-if message:
-    send_discord(message)
-    print("Discord message sent.")
-else:
-    print("No products over 10000 yen.")
-
+    
+    message = build_message(new_products)
+    
+    if message:
+        send_discord(message)
+        print("Discord message sent.")
+    else:
+        print("No products over 10000 yen.")
+    
     save_state(products, page_hash)
-
+    
     print("Change detected. Notification sent.")
     print(f"New products: {len(new_products)}")
 
