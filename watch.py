@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import re
 
 URL = "https://akariya-jishichi.co.jp/?mode=cate&cbid=2606203&csid=0"
 STATE_FILE = "state.json"
@@ -41,19 +42,26 @@ def extract_products(html: str) -> list[dict]:
         if not text:
             continue
 
-        # 상품 상세 링크로 보이는 것만 추출
         if "pid=" not in href:
             continue
 
         full_url = urljoin(URL, href)
 
+        price_match = re.search(r'([0-9,]+)\s*円', text)
+
+        price = 0
+
+        if price_match:
+            price = int(price_match.group(1).replace(",", ""))
+
         products.append({
             "name": text,
-            "url": full_url
+            "url": full_url,
+            "price": price
         })
 
-    # 중복 제거
     unique = {}
+
     for item in products:
         unique[item["url"]] = item
 
@@ -109,19 +117,33 @@ def send_discord(message: str) -> None:
 
 
 def build_message(new_products: list[dict]) -> str:
-    if new_products:
-        lines = ["새 상품이 감지되었습니다.\n"]
+    now = datetime.now(
+        ZoneInfo("Asia/Tokyo")
+    ).strftime("%Y-%m-%d %H:%M:%S")
 
-        for item in new_products[:10]:
-            lines.append(f"- {item['name']}\n{item['url']}")
+    filtered = [
+        p for p in new_products
+        if p.get("price", 0) >= 10000
+    ]
 
-        if len(new_products) > 10:
-            lines.append(f"\n외 {len(new_products) - 10}개 상품 추가 감지")
+    if not filtered:
+        return ""
 
-        lines.append(f"\n카테고리 페이지:\n{URL}")
-        return "\n".join(lines)
+    lines = [
+        f"🕒 {now}",
+        "",
+        "🔥 1만엔 이상 신규 상품 감지",
+        ""
+    ]
 
-    return f"AKARI 페이지 변경이 감지되었습니다.\n{URL}"
+    for item in filtered:
+        lines.append(
+            f"• {item['name']}\n"
+            f"💴 {item['price']:,}円\n"
+            f"{item['url']}\n"
+        )
+
+    return "\n".join(lines)
 
 
 def main() -> None:
