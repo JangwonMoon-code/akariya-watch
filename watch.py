@@ -39,11 +39,14 @@ def extract_products(html: str) -> list[dict]:
         href = link.get("href", "").strip()
         text = link.get_text(" ", strip=True)
 
+        text = link.get_text(" ", strip=True)
+
         if not text:
             continue
-            
+        
         # SOLD OUT 제외
         if "SOLD OUT" in text.upper():
+            continue
 
         continue
         if "pid=" not in href:
