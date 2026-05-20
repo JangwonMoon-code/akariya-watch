@@ -124,7 +124,8 @@ def build_message(new_products: list[dict]) -> str:
 
 def main() -> None:
     print("Checking page...")
-    send_discord("🔥 강제 Discord 테스트 메시지")
+    now = datetime.now(ZoneInfo("Asia/Tokyo")).strftime("%Y-%m-%d %H:%M:%S")
+    send_discord(f"🔥 아카리 램프 현재 재고 입고 되었는지 확인!\n🕒 {now}")    
     
     html = fetch_html(URL)
     products = extract_products(html)
@@ -146,7 +147,7 @@ def main() -> None:
     old_products = old_state.get("products", [])
 
     if old_hash == page_hash:
-        send_discord("✅ Discord 테스트 성공")
+        send_discord("✅ 아직 입고 안되었어요! 조금만 기다려줘요.")
         print(f"No change. Products found: {len(products)}")
         return
 
