@@ -31,8 +31,11 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          echo "CURRENT DIR:"
           pwd
+          echo "FILES:"
           ls -la
+          echo "RUN PYTHON:"
           python ./watch.py
 
       - name: Commit updated state
