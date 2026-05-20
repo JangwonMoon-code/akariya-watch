@@ -177,7 +177,7 @@ def main() -> None:
 
     new_products = find_new_products(old_products, products)
 
-    message = build_message(new_products)
+message = build_message(new_products)
 
 if message:
     send_discord(message)
