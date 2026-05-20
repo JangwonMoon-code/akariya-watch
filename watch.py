@@ -139,6 +139,7 @@ def main() -> None:
     old_products = old_state.get("products", [])
 
     if old_hash == page_hash:
+        send_discord("테스트 메시지")
         print(f"No change. Products found: {len(products)}")
         return
 
