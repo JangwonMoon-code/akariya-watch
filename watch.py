@@ -178,7 +178,12 @@ def main() -> None:
     new_products = find_new_products(old_products, products)
 
     message = build_message(new_products)
+
+if message:
     send_discord(message)
+    print("Discord message sent.")
+else:
+    print("No products over 10000 yen.")
 
     save_state(products, page_hash)
 
