@@ -89,14 +89,20 @@ def find_new_products(old_products: list[dict], new_products: list[dict]) -> lis
 
 def send_discord(message: str) -> None:
     if not DISCORD_WEBHOOK_URL:
-        print("DISCORD_WEBHOOK_URL is not set.")
+        print("ERROR: DISCORD_WEBHOOK_URL is not set.")
         return
+
+    print("Sending Discord message...")
 
     response = requests.post(
         DISCORD_WEBHOOK_URL,
         json={"content": message},
         timeout=20
     )
+
+    print("Discord status code:", response.status_code)
+    print("Discord response:", response.text)
+
     response.raise_for_status()
 
 
