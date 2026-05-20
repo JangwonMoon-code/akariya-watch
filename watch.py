@@ -124,7 +124,8 @@ def build_message(new_products: list[dict]) -> str:
 
 def main() -> None:
     print("Checking page...")
-
+    send_discord("🔥 강제 Discord 테스트 메시지")
+    
     html = fetch_html(URL)
     products = extract_products(html)
 
