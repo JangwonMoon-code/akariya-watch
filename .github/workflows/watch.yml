@@ -3,7 +3,7 @@ name: Watch AKARI
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7/5 * * * *"
+    - cron: '*/5 * * * *' # 5분마다 자동 실행
 
 permissions:
   contents: write
