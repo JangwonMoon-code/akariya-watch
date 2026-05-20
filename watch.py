@@ -37,38 +37,39 @@ def extract_products(html: str) -> list[dict]:
 
     for link in soup.find_all("a", href=True):
         href = link.get("href", "").strip()
-        card_text = link.parent.get_text(" ", strip=True)
 
-    text = link.get_text(" ", strip=True)
-    
-    if not text:
-    
-        continue
-    
-    # SOLD OUT 제외
-    
-    if "SOLD OUT" in card_text.upper():
-    
-        continue
-    
-    if "pid=" not in href:
-    
-        continue
+        if "pid=" not in href:
+            continue
 
-    full_url = urljoin(URL, href)
+        # 상품 카드 전체 텍스트 확보
+        card = link
+        for _ in range(4):
+            if card.parent:
+                card = card.parent
 
-    price_match = re.search(r'([0-9,]+)\s*円', text)
+        card_text = card.get_text(" ", strip=True)
+        text = link.get_text(" ", strip=True)
 
-    price = 0
+        if not text:
+            continue
 
-    if price_match:
-        price = int(price_match.group(1).replace(",", ""))
+        # SOLD OUT 제외
+        if "SOLD OUT" in card_text.upper():
+            continue
 
-    products.append({
-        "name": text,
-        "url": full_url,
-        "price": price
-    })
+        full_url = urljoin(URL, href)
+
+        price_match = re.search(r'([0-9,]+)\s*円', card_text)
+        price = 0
+
+        if price_match:
+            price = int(price_match.group(1).replace(",", ""))
+
+        products.append({
+            "name": text,
+            "url": full_url,
+            "price": price
+        })
 
     unique = {}
 
