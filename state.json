@@ -1,54 +1,66 @@
 {
-  "hash": "386773a01e21cf4d981a678e20e88461c881ca43c58bc5ad6d8d765520e1b141",
-  "checked_at": "2026-05-20 02:50:23",
+  "hash": "c3a9109de23834adc4d65b741def40e26111295b62350290fac9287645d43521",
+  "checked_at": "2026-05-20 07:32:26",
   "products": [
     {
       "name": "CDコード",
-      "url": "https://akariya-jishichi.co.jp/?pid=190410680"
+      "url": "https://akariya-jishichi.co.jp/?pid=190410680",
+      "price": 0
     },
     {
       "name": "CODコード",
-      "url": "https://akariya-jishichi.co.jp/?pid=179164292"
+      "url": "https://akariya-jishichi.co.jp/?pid=179164292",
+      "price": 0
     },
     {
       "name": "75900 フレンジ（CP2）",
-      "url": "https://akariya-jishichi.co.jp/?pid=152265826"
+      "url": "https://akariya-jishichi.co.jp/?pid=152265826",
+      "price": 0
     },
     {
       "name": "75901 コードハンガー",
-      "url": "https://akariya-jishichi.co.jp/?pid=179885011"
+      "url": "https://akariya-jishichi.co.jp/?pid=179885011",
+      "price": 0
     },
     {
       "name": "75000  1A",
-      "url": "https://akariya-jishichi.co.jp/?pid=151240400"
+      "url": "https://akariya-jishichi.co.jp/?pid=151240400",
+      "price": 0
     },
     {
       "name": "75002  1AT",
-      "url": "https://akariya-jishichi.co.jp/?pid=165230080"
+      "url": "https://akariya-jishichi.co.jp/?pid=165230080",
+      "price": 0
     },
     {
       "name": "75003  1AY",
-      "url": "https://akariya-jishichi.co.jp/?pid=165230112"
+      "url": "https://akariya-jishichi.co.jp/?pid=165230112",
+      "price": 0
     },
     {
       "name": "75004  1AD",
-      "url": "https://akariya-jishichi.co.jp/?pid=151265208"
+      "url": "https://akariya-jishichi.co.jp/?pid=151265208",
+      "price": 0
     },
     {
       "name": "75009  1N",
-      "url": "https://akariya-jishichi.co.jp/?pid=151265210"
+      "url": "https://akariya-jishichi.co.jp/?pid=151265210",
+      "price": 0
     },
     {
       "name": "75011 4N",
-      "url": "https://akariya-jishichi.co.jp/?pid=165231195"
+      "url": "https://akariya-jishichi.co.jp/?pid=165231195",
+      "price": 0
     },
     {
       "name": "75015  22N",
-      "url": "https://akariya-jishichi.co.jp/?pid=151265212"
+      "url": "https://akariya-jishichi.co.jp/?pid=151265212",
+      "price": 0
     },
     {
       "name": "75016  23N",
-      "url": "https://akariya-jishichi.co.jp/?pid=165266354"
+      "url": "https://akariya-jishichi.co.jp/?pid=165266354",
+      "price": 0
     }
   ]
 }
