@@ -156,19 +156,14 @@ def build_message(new_products: list[dict]) -> str:
         for p in high_price:
 
             lines.append(f"상품명: {p['name']}")
-
             lines.append(f"가격: ¥{p['price']:,}")
-
             lines.append(f"URL: {p['url']}")
-
             lines.append("👉 바로 구매하세요")
-
             lines.append("")
 
     else:
-
-        lines.append("변경 감지됨")
-
+        lines.append("아직 제품 입고전입니다.")
+        lines.append("👉 조금만 더 기다려주세요!")
         lines.append(f"상품 수: {len(new_products)}")
 
     return "\n".join(lines)
