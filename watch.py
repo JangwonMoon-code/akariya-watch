@@ -204,19 +204,11 @@ def main() -> None:
         return
     
     new_products = find_new_products(old_products, products)
+
+    # 빌드된 메세지 보내기 
+    send_discord(build_message(new_products))
     
-    message = build_message(new_products)
-    
-    if message:
-        send_discord(message)
-        print("Discord message sent.")
-    else:
-        send_discord(
-            f"✅ 확인 완료\n"
-            f"1만엔 이상 신규 상품은 없습니다.\n"
-            f"상품 수: {len(products)}개"
-        )
-        print("No products over 10000 yen.")
+    print("Discord message sent.")
     
     save_state(products, page_hash)
     
