@@ -134,7 +134,6 @@ def build_message(new_products: list[dict]) -> str:
     now_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
     lines = [
-
         f"🕒 감지 시간: {now_str}",
         ""
     ]
@@ -171,8 +170,7 @@ def build_message(new_products: list[dict]) -> str:
 
 def main() -> None:
     print("Checking page...")
-    now = datetime.now(ZoneInfo("Asia/Tokyo")).strftime("%Y-%m-%d %H:%M:%S")
-    send_discord(f"🔥 아카리 램프 현재 재고 입고 되었는지 확인!\n🕒 {now}")    
+    send_discord("🔥 아카리 램프 현재 재고 입고 되었는지 확인!")    
     
     html = fetch_html(URL)
     products = extract_products(html)
