@@ -128,31 +128,48 @@ def send_discord(message: str) -> None:
 
 
 def build_message(new_products: list[dict]) -> str:
-    now = datetime.now(
-        ZoneInfo("Asia/Tokyo")
-    ).strftime("%Y-%m-%d %H:%M:%S")
 
-    filtered = [
-        p for p in new_products
-        if p.get("price", 0) >= 10000
-    ]
+    now = datetime.now(ZoneInfo("Asia/Tokyo"))
 
-    if not filtered:
-        return ""
+    now_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
     lines = [
-        f"🕒 {now}",
-        "",
-        "🔥 1만엔 이상 신규 상품 감지",
+
+        f"🕒 감지 시간: {now_str}",
         ""
     ]
 
-    for item in filtered:
-        lines.append(
-            f"• {item['name']}\n"
-            f"💴 {item['price']:,}円\n"
-            f"{item['url']}\n"
-        )
+    high_price = []
+
+    for p in new_products:
+
+        if p["price"] >= 10000:
+
+            high_price.append(p)
+
+    if high_price:
+
+        lines.append("🔥 1만엔 이상 재고 발견!")
+
+        lines.append("")
+
+        for p in high_price:
+
+            lines.append(f"상품명: {p['name']}")
+
+            lines.append(f"가격: ¥{p['price']:,}")
+
+            lines.append(f"URL: {p['url']}")
+
+            lines.append("👉 바로 구매하세요")
+
+            lines.append("")
+
+    else:
+
+        lines.append("변경 감지됨")
+
+        lines.append(f"상품 수: {len(new_products)}")
 
     return "\n".join(lines)
 
