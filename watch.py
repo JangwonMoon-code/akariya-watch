@@ -186,8 +186,6 @@ def main() -> None:
     if old_hash == page_hash:
         send_discord(
             f"✅ 확인 완료\n"
-            f"🕒 {now}\n"
-            f"변화 없음\n"
             f"상품 수: {len(products)}개"
         )
         print(f"No change. Products found: {len(products)}")
@@ -203,8 +201,7 @@ def main() -> None:
     else:
         send_discord(
             f"✅ 확인 완료\n"
-            f"🕒 {now}\n"
-            f"변화는 있었지만 1만엔 이상 신규 상품은 없습니다.\n"
+            f"1만엔 이상 신규 상품은 없습니다.\n"
             f"상품 수: {len(products)}개"
         )
         print("No products over 10000 yen.")
