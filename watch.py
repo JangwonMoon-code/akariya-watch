@@ -130,43 +130,30 @@ def send_discord(message: str) -> None:
 def build_message(new_products: list[dict]) -> str:
 
     now = datetime.now(ZoneInfo("Asia/Tokyo"))
-
     now_str = now.strftime("%Y-%m-%d %H:%M:%S")
-
+    high_price = [
+        p for p in new_products
+        if p["price"] >= 10000
+    ]
+    
+    if not high_price:
+        return ""
+    
     lines = [
         f"🕒 감지 시간: {now_str}",
+        "",
+        "🔥 1만엔 이상 재고 발견!",
         ""
     ]
 
-    high_price = []
-
-    for p in new_products:
-
-        if p["price"] >= 10000:
-
-            high_price.append(p)
-
-    if high_price:
-
-        lines.append("🔥 1만엔 이상 재고 발견!")
-
-        lines.append("")
-
-        for p in high_price:
-
-            lines.append(f"상품명: {p['name']}")
-            lines.append(f"가격: ¥{p['price']:,}")
-            lines.append(f"URL: {p['url']}")
-            lines.append("👉 바로 구매하세요")
-            lines.append("")
-
-    else:
-        lines.append("아직 제품 입고전입니다.")
-        lines.append("👉 조금만 더 기다려주세요!")
-        lines.append(f"상품 수: {len(new_products)}")
-
+    for p in high_price:
+        lines.append(
+            f"상품명: {p['name']}\n"
+            f"💴 ¥{p['price']:,}\n"
+            f"🔗 {p['url']}\n"
+            f"👉 바로 구매하세요\n"
+        )
     return "\n".join(lines)
-
 
 def main() -> None:
     print("Checking page...")
@@ -204,7 +191,10 @@ def main() -> None:
     new_products = find_new_products(old_products, products)
 
     # 빌드된 메세지 보내기 
-    send_discord(build_message(new_products))
+    message = build_message(new_products)
+    
+    if message:
+        send_discord(message)
     
     print("Discord message sent.")
     
