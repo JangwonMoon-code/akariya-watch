@@ -195,7 +195,8 @@ def main() -> None:
     
     if message:
         send_discord(message)
-    
+    else:
+        send_discord("👉 조금만 더 기다려주세요. 조만간 입고예정이지 않을까요?")
     print("Discord message sent.")
     
     save_state(products, page_hash)
