@@ -157,7 +157,7 @@ def build_message(new_products: list[dict]) -> str:
 
 def main() -> None:
     print("Checking page...")
-    send_discord("🔥 아카리 램프 현재 재고 입고 되었는지 확인!")    
+    #send_discord("🔥 아카리 램프 현재 재고 입고 되었는지 확인!")    
     
     html = fetch_html(URL)
     products = extract_products(html)
@@ -195,8 +195,8 @@ def main() -> None:
     
     if message:
         send_discord(message)
-    else:
-        send_discord("👉 조금만 더 기다려주세요. 조만간 입고되지 않을까요?")
+    #else:
+        #send_discord("👉 조금만 더 기다려주세요. 조만간 입고되지 않을까요?")
     print("Discord message sent.")
     
     save_state(products, page_hash)
