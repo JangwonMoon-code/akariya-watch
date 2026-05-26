@@ -1,5 +1,102 @@
 {
-  "hash": "dc8547609ec4a40f348ba2cf98ed26268148508e10976e5dec5a3c9b6edce2de",
-  "checked_at": "2026-05-26 02:56:10",
-  "products": []
+  "hash": "af1fd4c62992dc1b7a57eca04cdaa4ba4d2c95e3b55243bf4f37b16cf494a007",
+  "checked_at": "2026-05-26 11:59:13",
+  "products": [
+    {
+      "pid": "151240400",
+      "name": "75000 1A",
+      "url": "https://akariya-jishichi.co.jp/?pid=151240400",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151265210",
+      "name": "75009 1N",
+      "url": "https://akariya-jishichi.co.jp/?pid=151265210",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151265212",
+      "name": "75015 22N",
+      "url": "https://akariya-jishichi.co.jp/?pid=151265212",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151278317",
+      "name": "71313 55D+コード",
+      "url": "https://akariya-jishichi.co.jp/?pid=151278317",
+      "price": 25300,
+      "sold_out": false,
+      "available": true
+    },
+    {
+      "pid": "151278433",
+      "name": "71311 37D+コード",
+      "url": "https://akariya-jishichi.co.jp/?pid=151278433",
+      "price": 19800,
+      "sold_out": false,
+      "available": true
+    },
+    {
+      "pid": "151278446",
+      "name": "71330 33X+コード",
+      "url": "https://akariya-jishichi.co.jp/?pid=151278446",
+      "price": 20900,
+      "sold_out": false,
+      "available": true
+    },
+    {
+      "pid": "165230112",
+      "name": "75003 1AY",
+      "url": "https://akariya-jishichi.co.jp/?pid=165230112",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "165231195",
+      "name": "75011 4N",
+      "url": "https://akariya-jishichi.co.jp/?pid=165231195",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "165266354",
+      "name": "75016 23N",
+      "url": "https://akariya-jishichi.co.jp/?pid=165266354",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "179164292",
+      "name": "CODコード",
+      "url": "https://akariya-jishichi.co.jp/?pid=179164292",
+      "price": 8580,
+      "sold_out": false,
+      "available": true
+    },
+    {
+      "pid": "179885011",
+      "name": "75901 コードハンガー",
+      "url": "https://akariya-jishichi.co.jp/?pid=179885011",
+      "price": 528,
+      "sold_out": false,
+      "available": true
+    },
+    {
+      "pid": "190410680",
+      "name": "CDコード",
+      "url": "https://akariya-jishichi.co.jp/?pid=190410680",
+      "price": 8030,
+      "sold_out": false,
+      "available": true
+    }
+  ]
 }
