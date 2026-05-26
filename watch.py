@@ -389,7 +389,7 @@ def main() -> None:
         print(f"Checked at: {now_jst()}")
 
         # 매번 Discord 확인 메시지 보내면 너무 시끄러울 수 있어서 기본 비활성
-        # send_discord(f"✅ 확인 완료\n상품 수: {len(products)}개\n판매 가능: {available_count}개")
+        send_discord(f"✅ 확인 완료\n상품 수: {len(products)}개\n판매 가능: {available_count}개")
 
         return
 
