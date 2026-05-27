@@ -1,6 +1,6 @@
 {
-  "hash": "8959bc8bdecc020e213506de8f932b7c7aa5a0bcd6f3514cdd29cd847fd7d26a",
-  "checked_at": "2026-05-26 23:16:26",
+  "hash": "fcb24af5454026e9fc14b9fe51ab8c2b4da60428544aea84d74f1a489ab9e994",
+  "checked_at": "2026-05-27 15:10:18",
   "products": [
     {
       "pid": "151240400",
@@ -51,17 +51,17 @@
       "available": false
     },
     {
+      "pid": "152265826",
+      "name": "75900 フレンジ（CP2）",
+      "url": "https://akariya-jishichi.co.jp/?pid=152265826",
+      "price": 462,
+      "sold_out": false,
+      "available": true
+    },
+    {
       "pid": "165230080",
       "name": "75002 1AT",
       "url": "https://akariya-jishichi.co.jp/?pid=165230080",
-      "price": 0,
-      "sold_out": true,
-      "available": false
-    },
-    {
-      "pid": "165230171",
-      "name": "75025 3X",
-      "url": "https://akariya-jishichi.co.jp/?pid=165230171",
       "price": 0,
       "sold_out": true,
       "available": false
