@@ -1,6 +1,6 @@
 {
-  "hash": "fcb24af5454026e9fc14b9fe51ab8c2b4da60428544aea84d74f1a489ab9e994",
-  "checked_at": "2026-05-29 17:27:53",
+  "hash": "9db9cfaceaac83e54b9f621339ed28d9acfcc6391db25765863f033f5c9747de",
+  "checked_at": "2026-06-01 14:19:45",
   "products": [
     {
       "pid": "151240400",
@@ -67,6 +67,14 @@
       "available": false
     },
     {
+      "pid": "165230171",
+      "name": "75025 3X",
+      "url": "https://akariya-jishichi.co.jp/?pid=165230171",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
       "pid": "165231195",
       "name": "75011 4N",
       "url": "https://akariya-jishichi.co.jp/?pid=165231195",
@@ -87,14 +95,6 @@
       "name": "75901 コードハンガー",
       "url": "https://akariya-jishichi.co.jp/?pid=179885011",
       "price": 528,
-      "sold_out": false,
-      "available": true
-    },
-    {
-      "pid": "190410680",
-      "name": "CDコード",
-      "url": "https://akariya-jishichi.co.jp/?pid=190410680",
-      "price": 8030,
       "sold_out": false,
       "available": true
     }
