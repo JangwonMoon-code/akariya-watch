@@ -1,6 +1,6 @@
 {
-  "hash": "dc824149f92457a3ddb97af59eeaf7b02276471180e51c3542022be44c359995",
-  "checked_at": "2026-06-02 13:54:06",
+  "hash": "d52be29934991a8cc5589e03729dd68b23fa3844b2cbbe7df99c8b2b133ac539",
+  "checked_at": "2026-06-02 18:00:54",
   "products": [
     {
       "pid": "151240400",
@@ -19,26 +19,18 @@
       "available": false
     },
     {
-      "pid": "151278310",
-      "name": "71306 45A+コード",
-      "url": "https://akariya-jishichi.co.jp/?pid=151278310",
-      "price": 22000,
-      "sold_out": false,
-      "available": true
+      "pid": "151265210",
+      "name": "75009 1N",
+      "url": "https://akariya-jishichi.co.jp/?pid=151265210",
+      "price": 0,
+      "sold_out": true,
+      "available": false
     },
     {
       "pid": "151278311",
       "name": "71307 55A+コード",
       "url": "https://akariya-jishichi.co.jp/?pid=151278311",
       "price": 27500,
-      "sold_out": false,
-      "available": true
-    },
-    {
-      "pid": "151278316",
-      "name": "71312 45D+コード",
-      "url": "https://akariya-jishichi.co.jp/?pid=151278316",
-      "price": 22000,
       "sold_out": false,
       "available": true
     },
@@ -67,6 +59,22 @@
       "available": false
     },
     {
+      "pid": "165230112",
+      "name": "75003 1AY",
+      "url": "https://akariya-jishichi.co.jp/?pid=165230112",
+      "price": 30800,
+      "sold_out": false,
+      "available": true
+    },
+    {
+      "pid": "165231195",
+      "name": "75011 4N",
+      "url": "https://akariya-jishichi.co.jp/?pid=165231195",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
       "pid": "179164292",
       "name": "CODコード",
       "url": "https://akariya-jishichi.co.jp/?pid=179164292",
@@ -81,14 +89,6 @@
       "price": 528,
       "sold_out": false,
       "available": true
-    },
-    {
-      "pid": "186922110",
-      "name": "75003 1AY",
-      "url": "https://akariya-jishichi.co.jp/?pid=186922110",
-      "price": 0,
-      "sold_out": true,
-      "available": false
     },
     {
       "pid": "190410680",
