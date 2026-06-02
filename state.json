@@ -1,6 +1,6 @@
 {
-  "hash": "d52be29934991a8cc5589e03729dd68b23fa3844b2cbbe7df99c8b2b133ac539",
-  "checked_at": "2026-06-02 18:00:54",
+  "hash": "41ddf88f7fd9606853c14d9628e97612b7131ce37fadc1637da54404f5e73d16",
+  "checked_at": "2026-06-02 21:48:55",
   "products": [
     {
       "pid": "151240400",
@@ -62,9 +62,9 @@
       "pid": "165230112",
       "name": "75003 1AY",
       "url": "https://akariya-jishichi.co.jp/?pid=165230112",
-      "price": 30800,
-      "sold_out": false,
-      "available": true
+      "price": 0,
+      "sold_out": true,
+      "available": false
     },
     {
       "pid": "165231195",
