@@ -1,6 +1,6 @@
 {
-  "hash": "41ddf88f7fd9606853c14d9628e97612b7131ce37fadc1637da54404f5e73d16",
-  "checked_at": "2026-06-02 21:48:55",
+  "hash": "cf32f5438ce38249e4b7cfa95e3b20cc867bbd7b22732f6b13c82cc49f5f1b7b",
+  "checked_at": "2026-06-03 02:10:30",
   "products": [
     {
       "pid": "151240400",
@@ -27,12 +27,12 @@
       "available": false
     },
     {
-      "pid": "151278311",
-      "name": "71307 55A+コード",
-      "url": "https://akariya-jishichi.co.jp/?pid=151278311",
-      "price": 27500,
-      "sold_out": false,
-      "available": true
+      "pid": "151265212",
+      "name": "75015 22N",
+      "url": "https://akariya-jishichi.co.jp/?pid=151265212",
+      "price": 0,
+      "sold_out": true,
+      "available": false
     },
     {
       "pid": "151278319",
