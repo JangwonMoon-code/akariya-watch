@@ -1,6 +1,6 @@
 {
-  "hash": "c2cb463d6e9f8b2f974b99481a3d80894c324afb8db7812f79b8cdc69d0f5965",
-  "checked_at": "2026-06-04 22:43:20",
+  "hash": "6d64cfa3e48b287e3b7d14a8368a609273602c74409ecbbdff538271e402e21d",
+  "checked_at": "2026-06-05 01:36:22",
   "products": [
     {
       "pid": "151240400",
@@ -78,9 +78,9 @@
       "pid": "165231195",
       "name": "75011 4N",
       "url": "https://akariya-jishichi.co.jp/?pid=165231195",
-      "price": 28600,
-      "sold_out": false,
-      "available": true
+      "price": 0,
+      "sold_out": true,
+      "available": false
     },
     {
       "pid": "179885011",
