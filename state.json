@@ -1,6 +1,6 @@
 {
-  "hash": "2f33f910f1fd2ca20b394c5e23f0930c20ae588dc4f820e7532452d668dd6daf",
-  "checked_at": "2026-06-04 19:31:00",
+  "hash": "c2cb463d6e9f8b2f974b99481a3d80894c324afb8db7812f79b8cdc69d0f5965",
+  "checked_at": "2026-06-04 22:43:20",
   "products": [
     {
       "pid": "151240400",
@@ -75,10 +75,10 @@
       "available": false
     },
     {
-      "pid": "165230171",
-      "name": "75025 3X",
-      "url": "https://akariya-jishichi.co.jp/?pid=165230171",
-      "price": 24200,
+      "pid": "165231195",
+      "name": "75011 4N",
+      "url": "https://akariya-jishichi.co.jp/?pid=165231195",
+      "price": 28600,
       "sold_out": false,
       "available": true
     },
