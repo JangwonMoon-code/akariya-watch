@@ -1,6 +1,6 @@
 {
-  "hash": "cf32f5438ce38249e4b7cfa95e3b20cc867bbd7b22732f6b13c82cc49f5f1b7b",
-  "checked_at": "2026-06-03 02:10:30",
+  "hash": "58df5d2a3c41405d367a7a4c0a45d7ff1bb7289974d89a9dbb7ff5f45a7a9a83",
+  "checked_at": "2026-06-04 11:01:34",
   "products": [
     {
       "pid": "151240400",
@@ -30,6 +30,14 @@
       "pid": "151265212",
       "name": "75015 22N",
       "url": "https://akariya-jishichi.co.jp/?pid=151265212",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151265215",
+      "name": "75021 1P",
+      "url": "https://akariya-jishichi.co.jp/?pid=151265215",
       "price": 0,
       "sold_out": true,
       "available": false
@@ -73,14 +81,6 @@
       "price": 0,
       "sold_out": true,
       "available": false
-    },
-    {
-      "pid": "179164292",
-      "name": "CODコード",
-      "url": "https://akariya-jishichi.co.jp/?pid=179164292",
-      "price": 8580,
-      "sold_out": false,
-      "available": true
     },
     {
       "pid": "179885011",
