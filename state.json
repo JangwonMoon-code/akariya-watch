@@ -1,6 +1,6 @@
 {
-  "hash": "260191eb99056af1a14f300a41a398afcfdb67e6483d2b3108355c4ecf4ea32c",
-  "checked_at": "2026-07-15 12:34:26",
+  "hash": "740aff034c4e191dfb2a3d882a180f8b7cacfc5d7a24588d88204b32d6181115",
+  "checked_at": "2026-08-04 18:29:02",
   "products": [
     {
       "pid": "151240400",
@@ -43,6 +43,14 @@
       "available": false
     },
     {
+      "pid": "151278311",
+      "name": "71307 55A+コード",
+      "url": "https://akariya-jishichi.co.jp/?pid=151278311",
+      "price": 27500,
+      "sold_out": false,
+      "available": true
+    },
+    {
       "pid": "151324602",
       "name": "75023 1X",
       "url": "https://akariya-jishichi.co.jp/?pid=151324602",
@@ -62,14 +70,6 @@
       "pid": "165230112",
       "name": "75003 1AY",
       "url": "https://akariya-jishichi.co.jp/?pid=165230112",
-      "price": 0,
-      "sold_out": true,
-      "available": false
-    },
-    {
-      "pid": "165230171",
-      "name": "75025 3X",
-      "url": "https://akariya-jishichi.co.jp/?pid=165230171",
       "price": 0,
       "sold_out": true,
       "available": false
