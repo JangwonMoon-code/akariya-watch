@@ -1,6 +1,6 @@
 {
-  "hash": "ce636c9892b28fc1c681257c0f9957d347abf61284ec16a6a2740443693905d0",
-  "checked_at": "2026-10-01 23:45:36",
+  "hash": "9d23dba9d8f48105682e5fb73aacd9534b23b1dcf6d7d7b87e9c45a673956e93",
+  "checked_at": "2026-10-02 17:50:34",
   "products": [
     {
       "pid": "151240400",
@@ -43,10 +43,10 @@
       "available": true
     },
     {
-      "pid": "151278316",
-      "name": "71312 45D+コード",
-      "url": "https://akariya-jishichi.co.jp/?pid=151278316",
-      "price": 22000,
+      "pid": "151278324",
+      "name": "71320 70EN+コード",
+      "url": "https://akariya-jishichi.co.jp/?pid=151278324",
+      "price": 48400,
       "sold_out": false,
       "available": true
     },
