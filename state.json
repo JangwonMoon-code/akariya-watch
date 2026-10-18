@@ -1,6 +1,6 @@
 {
-  "hash": "1735d06447438ca8c9417597176ad1a4d990c748ae6d21e2b9bedca849293455",
-  "checked_at": "2026-10-16 11:14:13",
+  "hash": "4c8f1f79ab815e18454f5c21d07d3490e51d6cee90fa030232e8b1f3e69a9af1",
+  "checked_at": "2026-10-18 21:54:53",
   "products": [
     {
       "pid": "151240400",
@@ -43,14 +43,6 @@
       "available": false
     },
     {
-      "pid": "151325557",
-      "name": "75207 UF2-31N",
-      "url": "https://akariya-jishichi.co.jp/?pid=151325557",
-      "price": 67100,
-      "sold_out": false,
-      "available": true
-    },
-    {
       "pid": "152265826",
       "name": "75900 フレンジ（CP2）",
       "url": "https://akariya-jishichi.co.jp/?pid=152265826",
@@ -70,6 +62,14 @@
       "pid": "165230112",
       "name": "75003 1AY",
       "url": "https://akariya-jishichi.co.jp/?pid=165230112",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "165230171",
+      "name": "75025 3X",
+      "url": "https://akariya-jishichi.co.jp/?pid=165230171",
       "price": 0,
       "sold_out": true,
       "available": false
