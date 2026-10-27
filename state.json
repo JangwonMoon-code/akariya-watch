@@ -1,31 +1,7 @@
 {
-  "hash": "4c8f1f79ab815e18454f5c21d07d3490e51d6cee90fa030232e8b1f3e69a9af1",
-  "checked_at": "2026-10-18 21:54:53",
+  "hash": "5e3b86d981b97f213219813834841d46a6e4473f1bf94db7d44afeacc1400bce",
+  "checked_at": "2026-10-27 11:00:20",
   "products": [
-    {
-      "pid": "151240400",
-      "name": "75000 1A",
-      "url": "https://akariya-jishichi.co.jp/?pid=151240400",
-      "price": 0,
-      "sold_out": true,
-      "available": false
-    },
-    {
-      "pid": "151265208",
-      "name": "75004 1AD",
-      "url": "https://akariya-jishichi.co.jp/?pid=151265208",
-      "price": 0,
-      "sold_out": true,
-      "available": false
-    },
-    {
-      "pid": "151265210",
-      "name": "75009 1N",
-      "url": "https://akariya-jishichi.co.jp/?pid=151265210",
-      "price": 0,
-      "sold_out": true,
-      "available": false
-    },
     {
       "pid": "151265215",
       "name": "75021 1P",
@@ -35,9 +11,33 @@
       "available": false
     },
     {
-      "pid": "151324602",
-      "name": "75023 1X",
-      "url": "https://akariya-jishichi.co.jp/?pid=151324602",
+      "pid": "151324828",
+      "name": "75109 5A",
+      "url": "https://akariya-jishichi.co.jp/?pid=151324828",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151324889",
+      "name": "75111 6A",
+      "url": "https://akariya-jishichi.co.jp/?pid=151324889",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151325104",
+      "name": "75206 UF1-XN",
+      "url": "https://akariya-jishichi.co.jp/?pid=151325104",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151325557",
+      "name": "75207 UF2-31N",
+      "url": "https://akariya-jishichi.co.jp/?pid=151325557",
       "price": 0,
       "sold_out": true,
       "available": false
