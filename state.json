@@ -1,6 +1,6 @@
 {
-  "hash": "8c5359bc417641f84972a9a67a6f9615a91030acee363825590dc24fd75d3390",
-  "checked_at": "2026-11-10 18:36:52",
+  "hash": "accc8c3ccff0ec099129b2a2c5f8b4a8f1946751bf7ca11ddbe8103edea70390",
+  "checked_at": "2026-11-13 16:23:17",
   "products": [
     {
       "pid": "151265212",
@@ -27,12 +27,12 @@
       "available": true
     },
     {
-      "pid": "151278317",
-      "name": "71313 55D+コード",
-      "url": "https://akariya-jishichi.co.jp/?pid=151278317",
-      "price": 25300,
-      "sold_out": false,
-      "available": true
+      "pid": "151324828",
+      "name": "75109 5A",
+      "url": "https://akariya-jishichi.co.jp/?pid=151324828",
+      "price": 0,
+      "sold_out": true,
+      "available": false
     },
     {
       "pid": "152265826",
