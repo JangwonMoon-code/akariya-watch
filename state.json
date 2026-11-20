@@ -1,6 +1,6 @@
 {
-  "hash": "98d81772b4e4478926f569fdee7ef63b97d04286e902184a55f710722b0d5dc5",
-  "checked_at": "2026-11-20 19:28:02",
+  "hash": "f63e27d7d8afa143b6d3110a41f934a5ba48fb211991d57843f78ef4266ab5aa",
+  "checked_at": "2026-11-21 03:43:03",
   "products": [
     {
       "pid": "151265212",
@@ -43,12 +43,12 @@
       "available": true
     },
     {
-      "pid": "151278446",
-      "name": "71330 33X+コード",
-      "url": "https://akariya-jishichi.co.jp/?pid=151278446",
-      "price": 20900,
-      "sold_out": false,
-      "available": true
+      "pid": "151324828",
+      "name": "75109 5A",
+      "url": "https://akariya-jishichi.co.jp/?pid=151324828",
+      "price": 0,
+      "sold_out": true,
+      "available": false
     },
     {
       "pid": "165230080",
@@ -78,9 +78,9 @@
       "pid": "165231195",
       "name": "75011 4N",
       "url": "https://akariya-jishichi.co.jp/?pid=165231195",
-      "price": 28600,
-      "sold_out": false,
-      "available": true
+      "price": 0,
+      "sold_out": true,
+      "available": false
     },
     {
       "pid": "179885011",
