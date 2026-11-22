@@ -1,6 +1,6 @@
 {
-  "hash": "0370dd1a4cfbfd258a0cdf639dea6457af519f2d216cb4ab4a6c377323267eb6",
-  "checked_at": "2026-11-22 00:26:24",
+  "hash": "490989a64f6149705f6770581d6b95a2c99b3b612a4f5588835583cc81288df0",
+  "checked_at": "2026-11-23 00:42:42",
   "products": [
     {
       "pid": "151265212",
@@ -17,14 +17,6 @@
       "price": 0,
       "sold_out": true,
       "available": false
-    },
-    {
-      "pid": "151278311",
-      "name": "71307 55A+コード",
-      "url": "https://akariya-jishichi.co.jp/?pid=151278311",
-      "price": 27500,
-      "sold_out": false,
-      "available": true
     },
     {
       "pid": "151278316",
@@ -46,6 +38,14 @@
       "pid": "151324889",
       "name": "75111 6A",
       "url": "https://akariya-jishichi.co.jp/?pid=151324889",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151325104",
+      "name": "75206 UF1-XN",
+      "url": "https://akariya-jishichi.co.jp/?pid=151325104",
       "price": 0,
       "sold_out": true,
       "available": false
