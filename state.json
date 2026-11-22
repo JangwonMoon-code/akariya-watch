@@ -1,6 +1,6 @@
 {
-  "hash": "490989a64f6149705f6770581d6b95a2c99b3b612a4f5588835583cc81288df0",
-  "checked_at": "2026-11-23 00:42:42",
+  "hash": "683efd7502a16ddff3eddeee71246a0be3c85453ab5d828b58f4ebcace6a28fc",
+  "checked_at": "2026-11-23 06:16:13",
   "products": [
     {
       "pid": "151265212",
@@ -17,14 +17,6 @@
       "price": 0,
       "sold_out": true,
       "available": false
-    },
-    {
-      "pid": "151278316",
-      "name": "71312 45D+コード",
-      "url": "https://akariya-jishichi.co.jp/?pid=151278316",
-      "price": 22000,
-      "sold_out": false,
-      "available": true
     },
     {
       "pid": "151324828",
@@ -46,6 +38,14 @@
       "pid": "151325104",
       "name": "75206 UF1-XN",
       "url": "https://akariya-jishichi.co.jp/?pid=151325104",
+      "price": 0,
+      "sold_out": true,
+      "available": false
+    },
+    {
+      "pid": "151325557",
+      "name": "75207 UF2-31N",
+      "url": "https://akariya-jishichi.co.jp/?pid=151325557",
       "price": 0,
       "sold_out": true,
       "available": false
